@@ -1,0 +1,31 @@
+{
+  "name": "02-ignite-nodejs-desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.21.0",
+    "knex": "^2.5.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "sqlite3": "^5.1.6",
+    "ts-token-generator": "^1.0.4",
+    "zod": "^3.21.4"
+  }
+}
